@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Complete Suite">
+	<test name="First Set from 1 to 10 testcases">
+		<classes>
+			<class name="TestNG.Tutorial1.day1" />
+			<class name="TestNG.Tutorial1.day2">
+				<methods>
+					<include name="testCase4"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Second Set of testcases">
+		<classes>
+			<class name="TestNG.Tutorial1.day3">
+				<methods>
+					<!-- <exclude name="mobileLogin" /> this to exclude a single testcase 
+						which has name MobileLogin -->
+<!-- 						<exclude name="mobile.*" />
+ -->
+ 				<include name ="api.*" />
+ 				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->

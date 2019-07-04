@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Complete Suite]">
+  <test name="testng2">
+    <classes>
+      <class name="TestNG.Tutorial1.day1"/>
+    </classes>
+  </test> <!-- testng2 -->
+</suite> <!-- Failed suite [Complete Suite] -->

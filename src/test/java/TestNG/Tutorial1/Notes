@@ -1,0 +1,45 @@
+1.We can execute different Classes with testng.
+
+2.<class name=""></class> is used to mention classname. it includes the 
+package name followed by classname.
+
+3.we can use exclude and include to run specified methods.
+exclude is used to exclude to skip the sepcified method and run others.
+
+4.include is used  to execute specified method exclude the other methods.
+Syntax 
+<class name="">
+<methods>
+<exclude name="method name">
+<include name="method name">
+</methods>
+</class>
+
+5.Exclude and Include with regular expression(regex).
+because if thier are many testcase to exclude we can't mention all under exclude.
+if thier are many testcases to include we can't mention all under include.
+
+<exclude name="mobile.*"> which means exclude all testcases which name startswith
+Mobile
+
+6.You can execute the all class of the package at same time.
+
+7.if you have multiple testng files in your project, if you want to 
+execute those, add them on pom.xml file surfire plugin.
+
+8.BeforeTest:BeforeTest method will execute Once before the All Test method.
+
+9.AfterTest:AfterTest method will execute Once after the All Test method.
+
+10.BeforeSuite:Execute once before Suite executes.
+
+11.AfterSuite:Execute once after Suite executes.
+
+12.BeforeMethod:Execute before each @Test executes.
+
+13.AfterMethod:Execute after each @Test executes.
+
+Before Class and After Class are class level Annotation, Before Test and Before Suite
+are TestNG level Annotations.
+
+Groups : 
