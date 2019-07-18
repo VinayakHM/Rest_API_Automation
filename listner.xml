@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Complete Suite">
+
+	<listners>
+	<listner class-name="testngListeners.ListnerInTestNG"></listner>
+	</listners>
+
+	<test name="First Set from 1 to 10 testcases">
+		<classes>
+			<class name="testngListeners.ListnerTestClass" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
