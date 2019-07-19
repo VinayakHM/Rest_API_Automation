@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Complete Suite]">
-  <test name="testng2">
+  <listeners>
+    <listener class-name="testngListeners.ListnerInTestNG"/>
+  </listeners>
+  <test name="First Set from 1 to 10 testcases">
     <classes>
-      <class name="TestNG.Tutorial1.day1"/>
+      <class name="testngListeners.ListnerTestClass"/>
     </classes>
-  </test> <!-- testng2 -->
+  </test> <!-- First Set from 1 to 10 testcases -->
+  <test name="First Set from 1 to 10 testcases(failed)">
+    <classes>
+      <class name="testngListeners.ListnerTestClass">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testngListeners.ListnerTestClass -->
+    </classes>
+  </test> <!-- First Set from 1 to 10 testcases(failed) -->
 </suite> <!-- Failed suite [Complete Suite] -->
