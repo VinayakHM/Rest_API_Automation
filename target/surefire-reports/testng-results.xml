@@ -47,19 +47,19 @@
       <![CDATA[test Successtest3]]>
     </line>
   </reporter-output>
-  <suite name="Complete Suite" duration-ms="50" started-at="2019-07-18T09:26:07Z" finished-at="2019-07-18T09:26:07Z">
+  <suite name="Complete Suite" duration-ms="52" started-at="2019-07-21T07:37:00Z" finished-at="2019-07-21T07:37:00Z">
     <groups>
     </groups>
-    <test name="First Set from 1 to 10 testcases" duration-ms="50" started-at="2019-07-18T09:26:07Z" finished-at="2019-07-18T09:26:07Z">
+    <test name="First Set from 1 to 10 testcases" duration-ms="52" started-at="2019-07-21T07:37:00Z" finished-at="2019-07-21T07:37:00Z">
       <class name="testngListeners.ListnerTestClass">
-        <test-method status="PASS" signature="test1()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test1" duration-ms="11" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test1" duration-ms="15" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <reporter-output>
             <line>
               <![CDATA[test Successtest1]]>
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="SKIP" signature="test2()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test2" duration-ms="0" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="SKIP" signature="test2()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test2" duration-ms="0" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[I am Skipping this test]]>
@@ -103,7 +103,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="SUCCESS_PERCENTAGE_FAILURE" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="5" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="SUCCESS_PERCENTAGE_FAILURE" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="3" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
               <![CDATA[expected:<2> but was:<8>]]>
@@ -152,28 +152,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="0" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <reporter-output>
             <line>
               <![CDATA[test Successtest3]]>
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <reporter-output>
             <line>
               <![CDATA[test Successtest3]]>
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <reporter-output>
             <line>
               <![CDATA[test Successtest3]]>
             </line>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="0" started-at="2019-07-18T14:56:07Z" finished-at="2019-07-18T14:56:07Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:testngListeners.ListnerTestClass@49e4cb85]" name="test3" duration-ms="1" started-at="2019-07-21T13:07:00Z" finished-at="2019-07-21T13:07:00Z">
           <reporter-output>
             <line>
               <![CDATA[test Successtest3]]>

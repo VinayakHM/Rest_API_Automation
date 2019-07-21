@@ -23,10 +23,10 @@ public class ListnerTestClass {
 	@Test(successPercentage = 60, invocationCount = 5)
 	public void test3() {
 		i++;
-		System.out.println("test3 test method, invocation count: " + i);
-		if (i == 1 || i == 2) {
-			System.out.println("test3 failed");
-			Assert.assertEquals(i, 8);
+/*		System.out.println("test3 test method, invocation count: " + i);
+*/		if (i == 1 || i == 2) {
+/*			System.out.println("test3 failed");
+*/			Assert.assertEquals(i, 8);
 		}
 	}
 
