@@ -24,7 +24,7 @@
 				<configuration>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>listner.xml</suiteXmlFile>
+						<suiteXmlFile>retry.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
