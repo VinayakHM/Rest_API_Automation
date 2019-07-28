@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.383 sec <<< FAILURE! - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.409 sec <<< FAILURE! - in TestSuite
 test1(RetryFailedTestCases.RetryTest)  Time elapsed: 0.024 sec  <<< FAILURE!
 java.lang.AssertionError: null
 	at org.junit.Assert.fail(Assert.java:92)

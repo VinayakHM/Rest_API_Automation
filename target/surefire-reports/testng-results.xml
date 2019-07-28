@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Retry Suite" duration-ms="40" started-at="2019-07-21T17:07:13Z" finished-at="2019-07-21T17:07:13Z">
+  <suite name="Retry Suite" duration-ms="37" started-at="2019-07-23T06:17:43Z" finished-at="2019-07-23T06:17:43Z">
     <groups>
     </groups>
-    <test name="Retry Test" duration-ms="40" started-at="2019-07-21T17:07:13Z" finished-at="2019-07-21T17:07:13Z">
+    <test name="Retry Test" duration-ms="37" started-at="2019-07-23T06:17:43Z" finished-at="2019-07-23T06:17:43Z">
       <class name="RetryFailedTestCases.RetryTest">
-        <test-method status="FAIL" signature="test1()[pri:0, instance:RetryFailedTestCases.RetryTest@58ceff1]" name="test1" duration-ms="17" started-at="2019-07-21T22:37:13Z" finished-at="2019-07-21T22:37:13Z">
+        <test-method status="FAIL" signature="test1()[pri:0, instance:RetryFailedTestCases.RetryTest@58ceff1]" name="test1" duration-ms="20" started-at="2019-07-23T11:47:43Z" finished-at="2019-07-23T11:47:43Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
