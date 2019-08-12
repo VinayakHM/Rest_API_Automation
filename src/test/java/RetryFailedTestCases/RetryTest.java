@@ -1,6 +1,7 @@
 package RetryFailedTestCases;
 
-import org.junit.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 
 public class RetryTest {
@@ -8,7 +9,7 @@ public class RetryTest {
 	@Test
 	public void test1() {
 		System.out.println("retrying");
-		Assert.assertTrue(false);
+		AssertJUnit.assertTrue(false);
 	}
 
 }

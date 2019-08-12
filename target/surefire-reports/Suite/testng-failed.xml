@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test name="Test">
     <classes>
-      <class name="TestNG.Tutorial1.day1"/>
+      <class name="RESTAPI.ExcelDriven.staticJson"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

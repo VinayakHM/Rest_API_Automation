@@ -1,9 +1,9 @@
 package testngListeners;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.SkipException;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 
 public class ListnerTestClass {
 
@@ -26,7 +26,7 @@ public class ListnerTestClass {
 /*		System.out.println("test3 test method, invocation count: " + i);
 */		if (i == 1 || i == 2) {
 /*			System.out.println("test3 failed");
-*/			Assert.assertEquals(i, 8);
+*/			AssertJUnit.assertEquals(i, 8);
 		}
 	}
 
