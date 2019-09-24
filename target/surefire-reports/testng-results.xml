@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2247" started-at="2019-08-12T17:03:36Z" finished-at="2019-08-12T17:03:38Z">
+  <suite name="Suite" duration-ms="3" started-at="2019-09-24T17:17:44Z" finished-at="2019-09-24T17:17:44Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2247" started-at="2019-08-12T17:03:36Z" finished-at="2019-08-12T17:03:38Z">
-      <class name="RESTAPI.ExcelDriven.staticJson">
-        <test-method status="PASS" signature="addBook()[pri:0, instance:RESTAPI.ExcelDriven.staticJson@58ceff1]" name="addBook" duration-ms="2225" started-at="2019-08-12T22:33:36Z" finished-at="2019-08-12T22:33:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addBook -->
-      </class> <!-- RESTAPI.ExcelDriven.staticJson -->
+    <test name="Test" duration-ms="3" started-at="2019-09-24T17:17:44Z" finished-at="2019-09-24T17:17:44Z">
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
