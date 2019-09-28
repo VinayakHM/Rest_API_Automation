@@ -4,7 +4,8 @@
 	<test name="Test">
 		<classes>
 			<!-- <class name="RESTAPI.ExcelDriven.staticJson" /> -->
-			<class name="RestAPI.HashmapToJson.postReq" />
+<!-- 			<class name="RestAPI.HashmapToJson.postReq" />
+ -->			<class name="testPackage.check1" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
